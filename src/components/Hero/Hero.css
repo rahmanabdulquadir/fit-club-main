@@ -24,6 +24,7 @@
   display: flex;
   align-items: center;
   justify-content: flex-start;
+  text-transform: uppercase;
 }
 .the-best-ad span{
   z-index: 2;
@@ -37,4 +38,23 @@
   left: 8px;
   border-radius: 3rem;
   z-index: 1;
+}
+
+.hero-text{
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+  text-transform: uppercase;
+  font-size: 4.5rem;
+  font-weight: bold;
+  color: white;
+text-overflow: inherit;
+}
+
+.hero-text div:nth-child(3){
+  font-size: 1rem;
+  font-weight: 200;
+  text-transform: none;
+  letter-spacing: 1px;
+  width: 80%;
 }
